@@ -1,0 +1,60 @@
+//
+// Box Size Properties.
+//
+// Support:
+//
+// * width
+// * min-width
+// * max-width
+// * height
+// * min-height
+// * max-height
+//
+
+// Width.
+//
+// @link http://docs.webplatform.org/wiki/css/properties/width
+
+$ucss-width: () !default;
+
+@include ucss-export-property(width, $ucss-width);
+
+// Min-width.
+//
+// @link http://docs.webplatform.org/wiki/css/properties/min-width
+
+$ucss-min-width: () !default;
+
+@include ucss-export-property(min-width, $ucss-min-width);
+
+// Max-width.
+//
+// @link http://docs.webplatform.org/wiki/css/properties/max-width
+
+$ucss-max-width: () !default;
+
+@include ucss-export-property(max-width, $ucss-max-width);
+
+// Height.
+//
+// @link http://docs.webplatform.org/wiki/css/properties/height
+
+$ucss-height: () !default;
+
+@include ucss-export-property(height, $ucss-height);
+
+// Min-height.
+//
+// @link http://docs.webplatform.org/wiki/css/properties/min-height
+
+$ucss-min-height: () !default;
+
+@include ucss-export-property(min-height, $ucss-min-height);
+
+// Max-height.
+//
+// @link http://docs.webplatform.org/wiki/css/properties/max-height
+
+$ucss-max-height: () !default;
+
+@include ucss-export-property(max-height, $ucss-max-height);

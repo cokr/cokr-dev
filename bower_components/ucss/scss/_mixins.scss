@@ -1,0 +1,71 @@
+//
+// Mixins to help generating stuff.
+//
+
+//
+// Property related mixins.
+//
+
+// Property.
+//
+// @param $property - A valid CSS property
+// @param $value - A valid value for the given property or a property-value map
+
+@mixin ucss-property($property, $value) {
+  @if (map != type-of($value)) {
+    #{$property}: $value;
+  }
+
+  @else {
+    @each $subproperty, $subvalue in $value {
+      #{$subproperty}: $subvalue;
+    }
+  }
+}
+
+// Generate a silent class and a class (if defined at `settings`).
+//
+// @param $property - A valid CSS property
+// @param $modifier - A modifier string
+// @param $value - A valid value for the given property or a property-value map
+
+@mixin ucss-generate-property($property, $modifier, $value) {
+  $classname: ucss-get-property-classname($property, $modifier);
+
+  %#{$classname} {
+    @include ucss-property($property, $value);
+  }
+
+  @if (ucss-generate-property-class($property)) {
+    .#{$classname} {
+      @extend %#{$classname};
+    }
+  }
+}
+
+// Conditional export property.
+//
+// @param $property - A valid CSS property
+// @param $values - A map of values for the given property
+
+@mixin ucss-export-property($property, $values) {
+  @if (ucss-use-property($property, $values)) {
+    @each $modifier, $value in $values {
+      @include ucss-generate-property($property, $modifier, $value);
+    }
+  }
+}
+
+//
+// Component related mixins.
+//
+
+// Process properties.
+//
+// @param $properties - property-value map
+
+@mixin ucss-process-properties($properties) {
+  @each $property, $value in $properties {
+    #{$property}: $value;
+  }
+}

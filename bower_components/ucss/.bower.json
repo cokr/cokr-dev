@@ -1,0 +1,31 @@
+{
+  "name": "seegno-ucss",
+  "version": "1.1.0",
+  "homepage": "https://github.com/seegno/ucss",
+  "authors": [
+    "seegno"
+  ],
+  "description": "UCSS - Utility CSS",
+  "main": "scss/ucss.scss",
+  "keywords": [
+    "utility classes",
+    "sass",
+    "ocss"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "_release": "1.1.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.1.0",
+    "commit": "67eef8048971086d7dddc6438b84bf779888ab01"
+  },
+  "_source": "git://github.com/seegno/ucss.git",
+  "_target": "~1.1.0",
+  "_originalSource": "ucss",
+  "_direct": true
+}
