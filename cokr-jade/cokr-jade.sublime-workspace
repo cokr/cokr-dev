@@ -68,11 +68,38 @@
 	"buffers":
 	[
 		{
+			"contents": "//-********************************************************************************\n//---------------------------------------------------------------------------------\n//- Config\n//---------------------------------------------------------------------------------\n//-********************************************************************************\n\n- var pageTitle      = \"THIS IS DEFAULT PAGE TITLE\"\n- var pageDesc       = \"THIS IS DEFAULT PAGE DESCRIPTION\"\n- var pageKeywords   = \"THIS IS DEFAULT PAGE KEYWORDS\"\n- var useGoogleFonts = \"googlefonts\"\n\n//-============================================================\n//- Path\n//-============================================================\n\n- var pathSite            = \"../\"\n- var pathBower           = \"../../bower_components/\"\n- var pathCDN             = \"http:\"\n\n- var pathCss             = pathSite + \"css/styles.css\"\n- var pathBootstrapGrids  = pathSite + \"css/bootstrap/bootstrap-grids.css\"\n\n- var pathJs              = pathSite + \"js/scripts.js\"\n- var pathRespondJs       = pathSite + \"js/respond/respond.min.js\"\n\n- var pathGoogleFonts     = pathSite + \"fonts/\" + useGoogleFonts\n\n- var pathJquery          = pathBower + \"jquery/dist/jquery.min.js\"\n- var pathModernizr       = pathBower + \"modernizr/modernizr.js\"\n- var pathBootstrapCss    = pathBower + \"bootstrap/dist/css/bootstrap.min.css\"\n- var pathBootstrapJs     = pathBower + \"bootstrap/dist/js/bootstrap.min.js\"\n- var pathFontAwesome     = pathBower + \"fontawesome/css/font-awesome.min.css\"\n\n- var pathGoogleFontsCDN  = pathCDN + \"//fonts.googleapis.com/css?family=\" + useGoogleFonts\n- var pathJqueryCDN       = pathCDN + \"//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js\"\n- var pathModernizrCDN    = pathCDN + \"//ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.7.2.js\"\n- var pathBootstrapCssCDN = pathCDN + \"//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css\"\n- var pathBootstrapJsCDN  = pathCDN + \"//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js\"\n- var pathFontAwesomeCDN  = pathCDN + \"//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css\"\n\n//-============================================================\n//- Switchers\n//-============================================================\n\n- var addCss             = false\n- var addJs              = false\n- var addGoogleFonts     = false\n- var addBootstrapGrids  = false\n\n- var addJquery          = false\n- var addBootstrapCss    = false\n- var addBootstrapJs     = false\n- var addFontAwesome     = false\n- var addModernizr       = false\n- var addRespondJs       = false\n- var addGoogleFontsCDN  = false\n- var addJqueryCDN       = false\n- var addBootstrapCssCDN = false\n- var addBootstrapJsCDN  = false\n- var addFontAwesomeCDN  = false\n- var addModernizrCDN    = false\n\n//-============================================================\n//- Page Mixins\n//-============================================================\n\nmixin addPageMeta\n  title #{pageTitle}\n  meta( charset=\"utf-8\" )\n  meta( charset=\"viewport\" content=\"width=device-width, initial-scale=1.0\" )\n  meta( name=\"keywords\" content=pageKeywords )\n  meta( name=\"description\" content=pageDesc )\n\n//-============================================================\n//- Switchers Mixins\n//-============================================================\n\nmixin addCss\n  if addCss\n    //== Css ==\n    link( href=pathCss rel=\"stylesheet\", type=\"text/css\" )\n\nmixin addJs\n  if addJs\n    //== Js ==\n    script( href=pathJs )\n\nmixin addGoogleFonts\n  if addGoogleFonts\n    //== GoogleFonts ==\n    link( href=pathGoogleFonts rel=\"stylesheet\", type=\"text/css\" )\n\nmixin addJquery\n  if addJquery\n    //== Jquery ==\n    script( href=pathJquery )\n\nmixin addBootstrapCss\n  if addBootstrapCss\n    //== BootstrapCss ==\n    link( href=pathBootstrapCss rel=\"stylesheet\", type=\"text/css\" )\n\nmixin addBootstrapGrids\n  if addBootstrapGrids\n    //== BootstrapGrids ==\n    link( href=pathBootstrapGrids rel=\"stylesheet\", type=\"text/css\" )\n\nmixin addBootstrapJs\n  if addBootstrapJs\n    //== BootstrapJs ==\n    script( href=pathBootstrapJs )\n\nmixin addFontAwesome\n  if addFontAwesome\n    //== FontAwesome ==\n    link( href=pathFontAwesome rel=\"stylesheet\", type=\"text/css\" )\n\nmixin addModernizr\n  if addModernizr\n    //== Modernizr ==\n    script( href=pathModernizr )\n\nmixin addRespondJs\n  if addRespondJs\n    //== RespondJs ==\n    script( href=pathRespondJs )\n\nmixin addGoogleFontsCDN\n  if addGoogleFontsCDN\n    //== GoogleFontsCDN ==\n    link( href=pathGoogleFontsCDN rel=\"stylesheet\", type=\"text/css\" )\n\nmixin addJqueryCDN\n  if addJqueryCDN\n    //== JqueryCDN ==\n    script( href=pathJqueryCDN )\n\nmixin addBootstrapCssCDN\n  if addBootstrapCssCDN\n    //== BootstrapCssCDN ==\n    link( href=pathBootstrapCssCDN rel=\"stylesheet\", type=\"text/css\" )\n\nmixin addBootstrapJsCDN\n  if addBootstrapJsCDN\n    //== BootstrapJsCDN ==\n    script( href=pathBootstrapJsCDN )\n\nmixin addFontAwesomeCDN\n  if addFontAwesomeCDN\n    //== FontAwesomeCDN ==\n    link( href=pathFontAwesomeCDN rel=\"stylesheet\", type=\"text/css\" )\n\nmixin addModernizrCDN\n  if addModernizrCDN\n    //== ModernizrCDN ==\n    script( href=pathModernizrCDN )",
 			"file": "jade/settings/_config.jade",
+			"file_size": 5298,
+			"file_write_time": 130615466598122984,
 			"settings":
 			{
-				"buffer_size": 4857,
+				"buffer_size": 5141,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "jade/_index.jade",
+			"settings":
+			{
+				"buffer_size": 2427,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "jade/index.jade",
+			"settings":
+			{
+				"buffer_size": 1737,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "html/index.html",
+			"settings":
+			{
+				"buffer_size": 1408,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -169,17 +196,16 @@
 	"expanded_folders":
 	[
 		"/D/_git-cokr/cokr-dev/cokr-jade",
-		"/D/_git-cokr/cokr-dev/cokr-jade/jade",
-		"/D/_git-cokr/cokr-dev/cokr-jade/jade/settings"
+		"/D/_git-cokr/cokr-dev/cokr-jade/html"
 	],
 	"file_history":
 	[
+		"/D/_git-cokr/cokr-dev/cokr-jade/jade/settings/_layouts.jade",
 		"/D/_git-cokr/cokr-dev/cokr-jade/jade/settings/_mixins.jade",
 		"/D/_git-cokr/cokr-dev/cokr-jade/jade/index.jade",
 		"/D/_git-cokr/cokr-dev/cokr-jade/jade/_index.jade",
 		"/D/_git-cokr/cokr-dev/cokr-jade/jade/settings/_variables.jade",
 		"/D/_git-cokr/cokr-dev/cokr-jade/jade/settings/_config.jade",
-		"/D/_git-cokr/cokr-dev/cokr-jade/jade/settings/_layouts.jade",
 		"/C/Users/cork/AppData/Roaming/Sublime Text 3/Packages/User/Base File.sublime-settings",
 		"/C/Users/cork/AppData/Roaming/Sublime Text 3/Packages/User/snip-jade-cm1.sublime-snippet",
 		"/C/Users/cork/AppData/Roaming/Sublime Text 3/Packages/User/snip-jade-cm2.sublime-snippet",
@@ -472,18 +498,48 @@
 				{
 					"buffer": 0,
 					"file": "jade/settings/_config.jade",
-					"semi_transient": true,
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4857,
+						"buffer_size": 5141,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								787,
+								787
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2706.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "jade/_index.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2427,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2192,
+								2188
 							]
 						],
 						"settings":
@@ -496,14 +552,75 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
 		},
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 2,
+					"file": "jade/index.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1737,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								494,
+								494
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "html/index.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1408,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -535,7 +652,7 @@
 		"cols":
 		[
 			0.0,
-			0.733766233766,
+			0.433370976849,
 			1.0
 		],
 		"rows":

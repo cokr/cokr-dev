@@ -1,0 +1,742 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cm",
+				"cm0	snip-scss-cm0"
+			],
+			[
+				"cm2",
+				"cm2	snip-scss-cm1"
+			],
+			[
+				"c",
+				"cm2	snip-jade-cm2"
+			],
+			[
+				"add",
+				"addBootstrapJs"
+			],
+			[
+				"vv",
+				"vv	snip-jade-vv"
+			],
+			[
+				"col",
+				"col-sm"
+			],
+			[
+				"sm",
+				"col-sm"
+			],
+			[
+				"fom",
+				"form-horizontal"
+			],
+			[
+				"g",
+				"generCol-horizontal"
+			],
+			[
+				"form",
+				"form-horizontal"
+			],
+			[
+				"gene",
+				"generNavSed"
+			],
+			[
+				"nav",
+				"navFstName"
+			],
+			[
+				"row",
+				"rowGener"
+			],
+			[
+				"gridWidth",
+				"gridWidth1"
+			],
+			[
+				"grid",
+				"gridWidth"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "@import \"../node_modules/kouto-swiss/index\"\n\n$color_base = #BF303B\n$color_analogous = extended-analogous( $color_base )\n\n.color__analogous-0\n  background-color : $color_analogous[0] \n.color__analogous-1\n  background-color : $color_analogous[1]\n.color__analogous-2\n  background-color : $color_analogous[2]\n.color__analogous-3\n  background-color : $color_analogous[3]\n",
+			"file": "stylus/-test.styl",
+			"file_size": 440,
+			"file_write_time": 130615587285095884,
+			"settings":
+			{
+				"buffer_size": 366,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "jade/color-scheme.jade",
+			"settings":
+			{
+				"buffer_size": 1721,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/-test.css",
+			"settings":
+			{
+				"buffer_size": 258,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "html/color-scheme.html",
+			"settings":
+			{
+				"buffer_size": 1903,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"gist",
+				"Gist: Open Gist"
+			],
+			[
+				"fetch",
+				"Fetch: File"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"f",
+				"Fetch: File"
+			],
+			[
+				"GIST",
+				"Gist: Open Gist"
+			],
+			[
+				"FETCH",
+				"Fetch: File"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"jade",
+				"Set Syntax: Jade"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/_git-cokr/cokr-dev/cokr-stylus",
+		"/D/_git-cokr/cokr-dev/cokr-stylus/css",
+		"/D/_git-cokr/cokr-dev/cokr-stylus/html",
+		"/D/_git-cokr/cokr-dev/cokr-stylus/html/settings",
+		"/D/_git-cokr/cokr-dev/cokr-stylus/jade",
+		"/D/_git-cokr/cokr-dev/cokr-stylus/stylus"
+	],
+	"file_history":
+	[
+		"/D/_git-cokr/cokr-dev/cokr-stylus/html/settings/color-scheme.html",
+		"/D/_git-cokr/cokr-dev/cokr-stylus/jade/color-scheme.jade",
+		"/D/_git-cokr/cokr-dev/cokr-stylus/jade/settings/color-scheme.jade",
+		"/D/_Git/_dump/corkon-bootstrap-3/site/jade/sections/_header.jade",
+		"/D/_Git/_dump/corkon-bootstrap-3/site/jade/sections/_jumbotron.jade",
+		"/D/_Git/_dump/corkon-bootstrap-3/site/jade/sections/_main.jade",
+		"/D/_Git/_dump/corkon-bootstrap-3/site/jade/sections/_service.jade",
+		"/D/_Git/_dump/corkon-bootstrap-3/site/jade/sections/_single-sidebar-left.jade",
+		"/D/_Git/_dump/cork-on-bootstrap-3/site/jade/elements/grids/__grids.jade",
+		"/D/_Git/_dump/cork-on-bootstrap-3/site/jade/elements/grids/_fw-3-col.jade",
+		"/D/_Git/_dump/cork-on-bootstrap-3/site/jade/pages/grids.jade",
+		"/D/_Git/bootstrap-3-corkon/site/jade/elements/layouts/_single-sidebar-l.jade",
+		"/D/_Git/bootstrap-3-corkon/site/jade/pages/grids.jade",
+		"/D/_git-cokr/cokr-dev/cokr-stylus/node_modules/kouto-swiss/Gruntfile.js",
+		"/D/_git-cokr/cokr-dev/cokr-stylus/node_modules/kouto-swiss/index.styl",
+		"/C/Users/cork/AppData/Roaming/Sublime Text 3/Packages/User/snip-jade-cm1.sublime-snippet",
+		"/C/Users/cork/AppData/Roaming/Sublime Text 3/Packages/User/snip-jade-cm2.sublime-snippet",
+		"/C/Users/cork/AppData/Roaming/Sublime Text 3/Packages/User/snip-jade-cm3.sublime-snippet",
+		"/D/_git-cokr/cokr-dev/cokr-style-guides/sass comments.txt",
+		"/D/_git-cokr/cokr-dev/cokr-style-guides/jade comments.txt",
+		"/C/Users/cork/AppData/Roaming/Sublime Text 3/Packages/User/snip-jade-elm.sublime-snippet",
+		"/C/Users/cork/AppData/Roaming/Sublime Text 3/Packages/User/snip-jade-pag.sublime-snippet",
+		"/C/Users/cork/AppData/Roaming/Sublime Text 3/Packages/User/snip-jade-phi.sublime-snippet",
+		"/C/Users/cork/AppData/Roaming/Sublime Text 3/Packages/User/snip-scss-cm3.sublime-snippet",
+		"/C/Users/cork/AppData/Roaming/Sublime Text 3/Packages/User/snip-scss-cmdesc.sublime-snippet",
+		"/C/Users/cork/AppData/Roaming/Sublime Text 3/Packages/User/snip-scss-cm2.sublime-snippet",
+		"/C/Users/cork/AppData/Roaming/Sublime Text 3/Packages/User/snip-scss-cm1.sublime-snippet",
+		"/C/Users/cork/AppData/Roaming/Sublime Text 3/Packages/User/snip-scss-cm0.sublime-snippet",
+		"/C/Users/cork/AppData/Roaming/Sublime Text 3/Packages/User/snip-scss-cmusg.sublime-snippet",
+		"/C/Users/cork/AppData/Roaming/Sublime Text 3/Packages/User/snip-scss-cmref.sublime-snippet",
+		"/C/Users/cork/AppData/Roaming/Sublime Text 3/Packages/User/snip-scss-cmp.sublime-snippet",
+		"/C/Users/cork/AppData/Roaming/Sublime Text 3/Packages/User/snip-scss-cmnote.sublime-snippet",
+		"/D/_git-cokr/cokr-dev/bower.json",
+		"/D/_Git/cork-stylus/css/example.css",
+		"/C/Users/cork/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/D/_Git/cork-stylus/stylus/example.styl",
+		"/C/Users/cork/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/c/users/cork/appdata/local/temp/Deafualt (Windows).sublime-keymap",
+		"/D/_Git/cork-stylus/example.styl",
+		"/D/_Git/cork-stylus/stylus",
+		"/D/_Git/cork-stylus/example.css",
+		"/D/_Git/test-ucss/css/styles.css",
+		"/D/_Git/test-ucss/sass/ucss/.editorconfig",
+		"/D/_Git/test-ucss/sass/ucss/scss/properties/_text.scss",
+		"/D/_Git/test-ucss/sass/_settings.scss",
+		"/D/_Git/test-ucss/settings/_settings.scss",
+		"/D/_Git/test-ucss/sass/styles.scss",
+		"/D/_Git/cokr/site/sass/base/reset.scss",
+		"/C/Users/cork/AppData/Roaming/Sublime Text 3/Packages/User/snip-scss-cm4.sublime-snippet",
+		"/G/#cloudOneDrives/OneDrive/_Sublime Text/snip-scss-cm2.sublime-snippet",
+		"/C/Users/cork/AppData/Roaming/Sublime Text 3/Packages/User/snip-sass-cm0.sublime-snippet",
+		"/D/_Git/cokr/site/css/base/reset.css",
+		"/D/_Git/cokr/site/sass/base_reset.scss",
+		"/D/_Git/corkon/site/sass/layouts/_header.scss",
+		"/D/_Git/corkon/site/sass/styles.scss",
+		"/D/_Git/corkon/site/jade/settings/_mixins.jade",
+		"/D/_Git/corkon/site/html/index-1.html",
+		"/D/_Git/corkon/site/sass/base/_base.scss",
+		"/D/_Git/cokr/bower.json",
+		"/D/_Git/corkon/site/jade/index-1.jade",
+		"/D/_Git/corkon/site/jade/settings/_variables.jade",
+		"/D/_Git/corkon/site/jade/_extend-index.jade",
+		"/D/_Git/corkon/site/sass/base/_normalize.scss",
+		"/D/_Git/corkon/site/jade/settings/_config.jade",
+		"/D/_Git/corkon/site/css/styles.css",
+		"/D/_Git/corkon/site/sass/bootstrap/_bootstrap.scss",
+		"/D/_Git/_dump/pattern-library/sass/style.scss",
+		"/D/_Git/corkon/site/jade/index.jade",
+		"/D/_Git/corkon/site/sass/utilities/_settings.scss",
+		"/D/_Git/corkon/site/sass/modules/_dividers.scss",
+		"/D/_Git/corkon/bower_components/jquery/src/dimensions.js",
+		"/D/_Git/corkon/bower_components/bootstrap/js/dropdown.js",
+		"/C/Users/cork/AppData/Roaming/Sublime Text 3/Packages/User/snip-sass-cm1.sublime-snippet",
+		"/D/_Git/corkon/site/sass/utilities/_utilities.scss",
+		"/D/_Git/corkon/site/sass/theme/_theme.scss",
+		"/D/_Git/corkon/site/js/scripts.js",
+		"/C/Users/cork/AppData/Roaming/Sublime Text 3/Packages/User/snip-js-cm1.sublime-snippet",
+		"/D/_Git/corkon/site/sass/img",
+		"/D/_Git/corkon/site/sass/modules/_misc.scss",
+		"/D/_Git/corkon/site/sass/modules/_buttons.scss",
+		"/D/_Git/corkon/site/sass/modules/_forms.scss",
+		"/D/_Git/corkon/site/sass/modules/_tables.scss",
+		"/D/_Git/corkon/site/sass/layouts/_nav.scss",
+		"/D/_Git/corkon/site/sass/layouts/_footer.scss",
+		"/D/_Git/corkon/site/sass/layouts/_main.scss",
+		"/D/_Git/corkon/site/sass/base/_ie8.scss",
+		"/D/_Git/corkon/site/html/index.html",
+		"/D/_Tutorial/Tutsplus - Top-Speed HTML Development With Jade, with Kezz Bracey (20141110)/17/NavMenu/jade/index.jade",
+		"/D/_Git/corkon/site/html/-extend-index.html",
+		"/D/_Tutorial/Tutsplus - Top-Speed HTML Development With Jade, with Kezz Bracey (20141110)/10/ConfigExample/jade/index.jade",
+		"/D/_Git/corkon/site/html/_extend-index.html",
+		"/D/_Git/corkon/site/jade/section/_footer.jade",
+		"/D/_Git/corkon/site/jade/section/_aside.jade",
+		"/D/_Git/corkon/site/jade/section/_main.jade",
+		"/D/_Git/corkon/site/jade/section/_nav.jade",
+		"/D/_Git/corkon/site/jade/section/_header.jade",
+		"/D/_Tutorial/Tutsplus - Top-Speed HTML Development With Jade, with Kezz Bracey (20141110)/10/ConfigExample/jade/docwrapper.jade",
+		"/D/_Tutorial/Tutsplus - Top-Speed HTML Development With Jade, with Kezz Bracey (20141110)/02/Example Project/jade/index.jade",
+		"/D/_Git/corkon/bower.json",
+		"/D/_Git/corkon/jade/index.jade",
+		"/D/_Git/corkon/css",
+		"/D/_Tutorial ex/Jade/Example Project/jade/index.jade",
+		"/H/#Orbit/Envato/205693.htm",
+		"/H/#Orbit/Envato/6339019.htm",
+		"/H/#Orbit/Envato/6314993.htm",
+		"/C/Users/cork/Desktop/test.dlc",
+		"/D/_Git/cork-on-bootstrap-3/site/jade/pages/index.jade",
+		"/D/_Git/cork-on-bootstrap-3/site/jade/pages/grids.jade",
+		"/D/_Git/cork-on-bootstrap-3/site/jade/settings/_head.jade",
+		"/D/_Git/cork-on-bootstrap-3/site/jade/settings/_meta.jade",
+		"/D/_Git/cork-on-bootstrap-3/site/jade/settings/_variables.jade",
+		"/D/_Git/cork-on-bootstrap-3/site/html/pages/grids.html",
+		"/D/_Git/cork-on-bootstrap-3/site/html/pages/index.html",
+		"/D/_Git/cork-on-bootstrap-3/site/jade/settings/_bottom.jade",
+		"/C/Users/cork/AppData/Roaming/Sublime Text 3/Packages/User/snip-jade-mod.sublime-snippet",
+		"/D/_Git/cork-on-bootstrap-3/site/jade/settings/_mixins.jade",
+		"/D/_Git/cork-on-bootstrap-3/site/sass/presentation.scss",
+		"/C/Users/cork/AppData/Roaming/Sublime Text 3/Packages/User/snip-jade-vv.sublime-snippet",
+		"/C/Users/cork/AppData/Roaming/Sublime Text 3/Packages/User/snip-jade-vr.sublime-snippet",
+		"/D/_Git/corkon-bootstrap-3/_jade/settings/_script-bootstrap.jade",
+		"/D/_Git/cork-on-bootstrap-3/site/jade/pages/_index_blank.jade",
+		"/D/_Git/corkon-bootstrap-3/_jade/pages/index.jade",
+		"/D/_Git/corkon-bootstrap-3/_jade/settings/_head-bootstrap.jade",
+		"/D/_Git/corkon-bootstrap-3/bower_components/bootstrap/LICENSE",
+		"/D/_Git/corkon-bootstrap-3/bower_components/bootstrap/less/input-groups.less",
+		"/D/_Git/corkon-bootstrap-3/bower_components/bootstrap/less/mixins/center-block.less",
+		"/D/_Tutorial/Lynda - Up and Running with Bootstrap 3 with Jen Kramer [133339]/Exercise/Ex_Files_UaR_Bootstp3/Exercise Files/Chapter 5/05_05/05_05.html",
+		"/D/_Git/corkon-bootstrap-3/site/jade/pages/_index.jade"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			":",
+			"\\",
+			"kouto",
+			"settings",
+			"utilities",
+			"basics",
+			"+",
+			"=",
+			",",
+			"sm",
+			"lg",
+			"md",
+			"lg",
+			"md",
+			"lg",
+			"+",
+			"Num",
+			"+",
+			"var ",
+			"lg",
+			"class=\"btn\", ",
+			"Css",
+			"1",
+			"img/",
+			"image",
+			"images",
+			"utilitites",
+			"tables",
+			"true",
+			"addFontAwesome",
+			"bootstrap css",
+			"false",
+			"\n- var addBootstrapCss",
+			"Bootstrap",
+			"BootstrapCss",
+			"addBootstrapCss",
+			"false",
+			"true",
+			"//",
+			"=",
+			"addBootstrap",
+			"addBootstrapCss",
+			"true",
+			"social-icon",
+			"-list",
+			"ifa",
+			"block",
+			"footer",
+			"block",
+			"footer",
+			"block",
+			"id=\"",
+			"id=\"id",
+			"classes",
+			"block ",
+			"classes",
+			"text",
+			"te",
+			"\"extra\"",
+			", \"extra\"",
+			"class_2\"",
+			"appendClasses",
+			"- var",
+			"block",
+			"bloc",
+			" -",
+			"appendClassesBody",
+			"= classes",
+			"Classes",
+			"classes",
+			"classesNav",
+			"classesBody.",
+			"classesBody",
+			"classes",
+			"classesBody",
+			"classesFooter",
+			"classes",
+			"class_2",
+			"class_1",
+			"class_",
+			"classesBody",
+			"classe",
+			"classes",
+			"nav",
+			"\"type\"",
+			" \"link\"",
+			"'",
+			"fst_item",
+			"Srd_item",
+			"fst",
+			"child_item",
+			"child",
+			"top",
+			"addGoogleFonts",
+			"add",
+			"r",
+			"addBootstrapJs",
+			"		+",
+			"Jquery",
+			"block ",
+			"'",
+			"html",
+			"href",
+			"(())",
+			"		li: a\n",
+			"<link rel=\"canonical\"",
+			"Module",
+			"=",
+			" \n",
+			"*",
+			"*****",
+			"*",
+			"centered",
+			"attributes",
+			"sm",
+			"form",
+			"col",
+			"form",
+			"block",
+			"lg",
+			"Sed",
+			"navFst",
+			"#{",
+			"lg",
+			"\"",
+			"pull-4",
+			"push",
+			"push-"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"-",
+			"="
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "stylus/-test.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 366,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								365,
+								365
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Stylus/Stylus.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "jade/color-scheme.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1721,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								421,
+								421
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "css/-test.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 258,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								255,
+								255
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "html/color-scheme.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1903,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 462.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				2,
+				0,
+				3,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.33,
+			0.684844720497,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "cokr-stylus.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"divider",
+				"site\\sass\\modules\\_dividers.scss"
+			],
+			[
+				"jquery",
+				"bower_components\\jquery\\dist\\jquery.min.js"
+			],
+			[
+				"respond",
+				"site\\js\\respond.min.js"
+			],
+			[
+				"bootstrap.min.css",
+				"bower_components\\bootstrap\\dist\\css\\bootstrap.min.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 149.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
